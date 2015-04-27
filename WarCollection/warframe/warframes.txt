@@ -1,0 +1,36 @@
+ash.png	ash.png	Ash
+banshee.png	banshee.png	Banshee
+chroma.png	chroma.png	Chroma
+elytron.png	elytron.png	Elytron
+ember.png	ember.png	Ember
+ember_prime.png	ember_prime.png	Ember Prime
+excalibur.png	excalibur.png	Excalibur
+excalibur_prime.png	excalibur_prime.png	Excalibur Prime
+frost.png	frost.png	Frost
+frost_prime.png	frost_prime.png	Frost Prime
+hydroid.png	hydroid.png	Hydroid
+itzal.png	itzal.png	Itzal
+limbo.png	limbo.png	Limbo
+loki.png	loki.png	Loki
+loki_prime.png	loki_prime.png	Loki Prime
+mag.png	mag.png	Mag
+mag_prime.png	mag_prime.png	Mag Prime
+mesa.png	mesa.png	Mesa
+mirage.png	mirage.png	Mirage
+nekros.png	nekros.png	Nekros
+nova.png	nova.png	Nova
+nova_prime.png	nova_prime.png	Nova Prime
+nyx.png	nyx.png	Nyx
+nyx_prime.png	nyx_prime.png	Nyx Prime
+oberon.png	oberon.png	Oberon
+odonata.png	odonata.png	Odonata
+odonata_prime.png	odonata_prime.png	Odonata Prime
+rhino.png	rhino.png	Rhino
+rhino_prime.png	rhino_prime.png	Rhino Prime
+saryn.png	saryn.png	Saryn
+trinity.png	trinity.png	Trinity
+valkyr.png	valkyr.png	Valkyr
+vauban.png	vauban.png	Vauban
+volt.png	volt.png	Volt
+volt_prime.png	volt_prime.png	Volt Prime
+zephyr.png	zephyr.png	Zephyr

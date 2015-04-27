@@ -1,0 +1,79 @@
+amphis.png	amphis.png	Amphis
+ankyros.png	ankyros.png	Ankyros
+ankyros prime.png	ankyros_prime.png	Ankyros Prime
+atterax.png	atterax.png	Atterax
+bo.png	bo.png	Bo
+bo prime.png	bo_prime.png	Bo Prime
+centaur.png	centaur.png	Centaur
+ceramic dagger.png	dague_en_ceramique.png	Ceramic Dagger
+cronus.png	cronus.png	Cronus
+dakra prime.png	dakra_prime.png	Dakra Prime
+dark dagger.png	dague_de_chaleur.png	Dark Dagger
+dark sword.png	epee_de_chaleur.png	Dark Sword
+dex dakra.png	dex_dakra.png	Dex Dakra
+dragon nikana.png	dragon_nikana.png	Dragon Nikana
+dual cleavers.png	double_hachoirs.png	Dual Cleavers
+dual ether.png	double_ether.png	Dual Ether
+dual heat swords.png	double_epees.png	Dual Heat Swords
+dual ichor.png	double_ichor.png	Dual Ichor
+dual kamas.png	double_kamas.png	Dual Kamas
+dual raza.png	dual_raza.png	Dual Raza
+dual skana.png	double_skana.png	Dual Skana
+dual zoren.png	double_zoren.png	Dual Zoren
+ether daggers.png	dagues_ether.png	Ether Daggers
+ether reaper.png	reaper_ether.png	Ether Reaper
+ether sword.png	epee_ether.png	Ether Sword
+fang.png	fang.png	Fang
+fang prime.png	fang_prime.png	Fang Prime
+fragor.png	fragor.png	Fragor
+furax.png	furax.png	Furax
+galatine.png	galatine.png	Galatine
+glaive.png	glaive.png	Glaive
+glaive prime.png	glaive_prime.png	Glaive Prime
+gram.png	gram.png	Gram
+halikar.png	halikar.png	Halikar
+hate.png	hate.png	Hate
+heat dagger.png	dague_sombre.png	Heat Dagger
+heat sword.png	epee_sombre.png	Heat Sword
+jat kittag.png	jat_kittag.png	Jat Kittag
+jaw sword.png	epee_jaw.png	Jaw Sword
+kama.png	kama.png	Kama
+karyst.png	karyst.png	Karyst
+kestrel.png	kestrel.png	Kestrel
+kogake.png	kogake.png	Kogake
+kronen.png	kronen.png	Kronen
+lecta.png	lecta.png	Lecta
+machete.png	machette.png	Machete
+machete wraith.png	machette_wraith.png	Machete Wraith
+magistar.png	magistar.png	Magistar
+mire.png	mire.png	Mire
+mk1-bo.png	mk1-bo.png	Mk1-Bo
+mk1-furax.png	mk1-furax.png	Mk1-Furax
+nami skyla.png	nami_skyla.png	Nami Skyla
+nami solo.png	nami_solo.png	Nami Solo
+nikana.png	nikana.png	Nikana
+obex.png	obex.png	Obex
+onorix.png	onorix.png	Onorix
+orthos.png	orthos.png	Orthos
+orthos prime.png	orthos_prime.png	Orthos Prime
+pangolin sword.png	epee_pangolin.png	Pangolin Sword
+plasma sword.png	epee_a_plasma.png	Plasma Sword
+prisma veritux.png	prisma_veritux.png	Prisma Veritux
+prova.png	prova.png	Prova
+prova vandal.png	prova_vandal.png	Prova Vandal
+rathbone.png	rathbone.png	Rathbone
+reaper prime.png	reaper_prime.png	Reaper Prime
+redeemer.png	redeemer.png	Redeemer
+ripkas.png	ripkas.png	Ripkas
+scindo.png	scindo.png	Scindo
+scindo prime.png	scindo_prime.png	Scindo Prime
+scoliac.png	scoliac.png	Scoliac
+serro.png	serro.png	Serro
+sheev.png	sheev.png	Sheev
+silva and aegis.png	silva_et_aegis.png	Silva And Aegis
+skana.png	skana.png	Skana
+skana prime.png	skana_prime.png	Skana Prime
+tipedo.png	tipedo.png	Tipedo
+tonbo.png	tonbo.png	Tonbo
+venka.png	venka.png	Venka
+veritux.png	veritux.png	Veritux

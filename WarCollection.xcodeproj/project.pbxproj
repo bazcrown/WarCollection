@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3073EB61AE8F87E00E1CD70 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3073EB21AE8F87D00E1CD70 /* LaunchScreen.xib */; };
+		A3073EB71AE8F87E00E1CD70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3073EB41AE8F87E00E1CD70 /* Main.storyboard */; };
+		A3073EC11AE92F0D00E1CD70 /* PrimaryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3073EC01AE92F0D00E1CD70 /* PrimaryCollectionViewController.swift */; };
+		A3073EC31AE92F7800E1CD70 /* PrimaryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3073EC21AE92F7800E1CD70 /* PrimaryCollectionViewCell.swift */; };
+		A352E4581AEC92A5002DEE5A /* MyPRSupplementaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A352E4571AEC92A5002DEE5A /* MyPRSupplementaryView.swift */; };
+		A352E45E1AEC9F39002DEE5A /* MainCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A352E45D1AEC9F39002DEE5A /* MainCollectionViewController.swift */; };
+		A352E4601AECA097002DEE5A /* MainWarframeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A352E45F1AECA097002DEE5A /* MainWarframeCell.swift */; };
+		A352E4621AECA0A6002DEE5A /* MainPrimaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A352E4611AECA0A6002DEE5A /* MainPrimaryCell.swift */; };
+		A352E4641AECA0B2002DEE5A /* MainSecondaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A352E4631AECA0B2002DEE5A /* MainSecondaryCell.swift */; };
+		A352E4661AECA0BC002DEE5A /* MainMeleeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A352E4651AECA0BC002DEE5A /* MainMeleeCell.swift */; };
+		A376DD581AEB7225002BE561 /* primary in Resources */ = {isa = PBXBuildFile; fileRef = A376DD571AEB7225002BE561 /* primary */; };
+		A376DD5A1AEB722F002BE561 /* melee in Resources */ = {isa = PBXBuildFile; fileRef = A376DD591AEB722F002BE561 /* melee */; };
+		A376DD5C1AEB7272002BE561 /* warframe in Resources */ = {isa = PBXBuildFile; fileRef = A376DD5B1AEB7272002BE561 /* warframe */; };
+		A376DD5E1AEB727B002BE561 /* secondary in Resources */ = {isa = PBXBuildFile; fileRef = A376DD5D1AEB727B002BE561 /* secondary */; };
+		A37D556E1AE4062600E38E44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D556D1AE4062600E38E44 /* AppDelegate.swift */; };
+		A37D55751AE4062600E38E44 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A37D55741AE4062600E38E44 /* Images.xcassets */; };
+		A37D55841AE4062600E38E44 /* WarCollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D55831AE4062600E38E44 /* WarCollectionTests.swift */; };
+		A37D558E1AE407AC00E38E44 /* WarframeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D558D1AE407AC00E38E44 /* WarframeCollectionViewController.swift */; };
+		A37D55921AE40A1700E38E44 /* MyFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D55911AE40A1700E38E44 /* MyFlowLayout.swift */; };
+		A37D55941AE40A9000E38E44 /* WarframeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D55931AE40A9000E38E44 /* WarframeCollectionViewCell.swift */; };
+		A37D55DE1AE410D000E38E44 /* MyWFSupplementaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D55DD1AE410D000E38E44 /* MyWFSupplementaryView.swift */; };
+		A3DDC73B1AEDF6EF00875253 /* SecondaryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DDC73A1AEDF6EF00875253 /* SecondaryCollectionViewController.swift */; };
+		A3DDC73D1AEDF7C000875253 /* SecondaryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DDC73C1AEDF7C000875253 /* SecondaryCollectionViewCell.swift */; };
+		A3DDC73F1AEDFC3C00875253 /* MySESupplementaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DDC73E1AEDFC3C00875253 /* MySESupplementaryView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A37D557E1AE4062600E38E44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A37D55601AE4062500E38E44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A37D55671AE4062600E38E44;
+			remoteInfo = WarCollection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3073EB31AE8F87D00E1CD70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A3073EB51AE8F87E00E1CD70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3073EC01AE92F0D00E1CD70 /* PrimaryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryCollectionViewController.swift; sourceTree = "<group>"; };
+		A3073EC21AE92F7800E1CD70 /* PrimaryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryCollectionViewCell.swift; sourceTree = "<group>"; };
+		A352E4571AEC92A5002DEE5A /* MyPRSupplementaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPRSupplementaryView.swift; sourceTree = "<group>"; };
+		A352E45D1AEC9F39002DEE5A /* MainCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCollectionViewController.swift; sourceTree = "<group>"; };
+		A352E45F1AECA097002DEE5A /* MainWarframeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWarframeCell.swift; sourceTree = "<group>"; };
+		A352E4611AECA0A6002DEE5A /* MainPrimaryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPrimaryCell.swift; sourceTree = "<group>"; };
+		A352E4631AECA0B2002DEE5A /* MainSecondaryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainSecondaryCell.swift; sourceTree = "<group>"; };
+		A352E4651AECA0BC002DEE5A /* MainMeleeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMeleeCell.swift; sourceTree = "<group>"; };
+		A376DD571AEB7225002BE561 /* primary */ = {isa = PBXFileReference; lastKnownFileType = folder; path = primary; sourceTree = "<group>"; };
+		A376DD591AEB722F002BE561 /* melee */ = {isa = PBXFileReference; lastKnownFileType = folder; path = melee; sourceTree = "<group>"; };
+		A376DD5B1AEB7272002BE561 /* warframe */ = {isa = PBXFileReference; lastKnownFileType = folder; path = warframe; sourceTree = "<group>"; };
+		A376DD5D1AEB727B002BE561 /* secondary */ = {isa = PBXFileReference; lastKnownFileType = folder; path = secondary; sourceTree = "<group>"; };
+		A37D55681AE4062600E38E44 /* WarCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37D556C1AE4062600E38E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A37D556D1AE4062600E38E44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A37D55741AE4062600E38E44 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A37D557D1AE4062600E38E44 /* WarCollectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarCollectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37D55821AE4062600E38E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A37D55831AE4062600E38E44 /* WarCollectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarCollectionTests.swift; sourceTree = "<group>"; };
+		A37D558D1AE407AC00E38E44 /* WarframeCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WarframeCollectionViewController.swift; sourceTree = "<group>"; };
+		A37D55911AE40A1700E38E44 /* MyFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFlowLayout.swift; sourceTree = "<group>"; };
+		A37D55931AE40A9000E38E44 /* WarframeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WarframeCollectionViewCell.swift; sourceTree = "<group>"; };
+		A37D55DD1AE410D000E38E44 /* MyWFSupplementaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyWFSupplementaryView.swift; sourceTree = "<group>"; };
+		A3DDC73A1AEDF6EF00875253 /* SecondaryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondaryCollectionViewController.swift; sourceTree = "<group>"; };
+		A3DDC73C1AEDF7C000875253 /* SecondaryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondaryCollectionViewCell.swift; sourceTree = "<group>"; };
+		A3DDC73E1AEDFC3C00875253 /* MySESupplementaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySESupplementaryView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A37D55651AE4062600E38E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37D557A1AE4062600E38E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A37D555F1AE4062500E38E44 = {
+			isa = PBXGroup;
+			children = (
+				A37D556A1AE4062600E38E44 /* WarCollection */,
+				A37D55801AE4062600E38E44 /* WarCollectionTests */,
+				A37D55691AE4062600E38E44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A37D55691AE4062600E38E44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A37D55681AE4062600E38E44 /* WarCollection.app */,
+				A37D557D1AE4062600E38E44 /* WarCollectionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A37D556A1AE4062600E38E44 /* WarCollection */ = {
+			isa = PBXGroup;
+			children = (
+				A3DDC73A1AEDF6EF00875253 /* SecondaryCollectionViewController.swift */,
+				A37D558D1AE407AC00E38E44 /* WarframeCollectionViewController.swift */,
+				A3073EC01AE92F0D00E1CD70 /* PrimaryCollectionViewController.swift */,
+				A3073EC21AE92F7800E1CD70 /* PrimaryCollectionViewCell.swift */,
+				A352E45F1AECA097002DEE5A /* MainWarframeCell.swift */,
+				A352E4611AECA0A6002DEE5A /* MainPrimaryCell.swift */,
+				A352E4651AECA0BC002DEE5A /* MainMeleeCell.swift */,
+				A352E4631AECA0B2002DEE5A /* MainSecondaryCell.swift */,
+				A37D55DD1AE410D000E38E44 /* MyWFSupplementaryView.swift */,
+				A3DDC73E1AEDFC3C00875253 /* MySESupplementaryView.swift */,
+				A352E4571AEC92A5002DEE5A /* MyPRSupplementaryView.swift */,
+				A37D55911AE40A1700E38E44 /* MyFlowLayout.swift */,
+				A37D55931AE40A9000E38E44 /* WarframeCollectionViewCell.swift */,
+				A37D556D1AE4062600E38E44 /* AppDelegate.swift */,
+				A3073EB21AE8F87D00E1CD70 /* LaunchScreen.xib */,
+				A3073EB41AE8F87E00E1CD70 /* Main.storyboard */,
+				A352E45D1AEC9F39002DEE5A /* MainCollectionViewController.swift */,
+				A3DDC73C1AEDF7C000875253 /* SecondaryCollectionViewCell.swift */,
+				A37D55741AE4062600E38E44 /* Images.xcassets */,
+				A37D556B1AE4062600E38E44 /* Supporting Files */,
+			);
+			path = WarCollection;
+			sourceTree = "<group>";
+		};
+		A37D556B1AE4062600E38E44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A376DD5D1AEB727B002BE561 /* secondary */,
+				A376DD5B1AEB7272002BE561 /* warframe */,
+				A376DD591AEB722F002BE561 /* melee */,
+				A376DD571AEB7225002BE561 /* primary */,
+				A37D556C1AE4062600E38E44 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A37D55801AE4062600E38E44 /* WarCollectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				A37D55831AE4062600E38E44 /* WarCollectionTests.swift */,
+				A37D55811AE4062600E38E44 /* Supporting Files */,
+			);
+			path = WarCollectionTests;
+			sourceTree = "<group>";
+		};
+		A37D55811AE4062600E38E44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A37D55821AE4062600E38E44 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A37D55671AE4062600E38E44 /* WarCollection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A37D55871AE4062600E38E44 /* Build configuration list for PBXNativeTarget "WarCollection" */;
+			buildPhases = (
+				A37D55641AE4062600E38E44 /* Sources */,
+				A37D55651AE4062600E38E44 /* Frameworks */,
+				A37D55661AE4062600E38E44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WarCollection;
+			productName = WarCollection;
+			productReference = A37D55681AE4062600E38E44 /* WarCollection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A37D557C1AE4062600E38E44 /* WarCollectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A37D558A1AE4062600E38E44 /* Build configuration list for PBXNativeTarget "WarCollectionTests" */;
+			buildPhases = (
+				A37D55791AE4062600E38E44 /* Sources */,
+				A37D557A1AE4062600E38E44 /* Frameworks */,
+				A37D557B1AE4062600E38E44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A37D557F1AE4062600E38E44 /* PBXTargetDependency */,
+			);
+			name = WarCollectionTests;
+			productName = WarCollectionTests;
+			productReference = A37D557D1AE4062600E38E44 /* WarCollectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A37D55601AE4062500E38E44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = BazzyStudios;
+				TargetAttributes = {
+					A37D55671AE4062600E38E44 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 93JCP5W4K9;
+					};
+					A37D557C1AE4062600E38E44 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = A37D55671AE4062600E38E44;
+					};
+				};
+			};
+			buildConfigurationList = A37D55631AE4062500E38E44 /* Build configuration list for PBXProject "WarCollection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A37D555F1AE4062500E38E44;
+			productRefGroup = A37D55691AE4062600E38E44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A37D55671AE4062600E38E44 /* WarCollection */,
+				A37D557C1AE4062600E38E44 /* WarCollectionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A37D55661AE4062600E38E44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37D55751AE4062600E38E44 /* Images.xcassets in Resources */,
+				A376DD5E1AEB727B002BE561 /* secondary in Resources */,
+				A376DD5A1AEB722F002BE561 /* melee in Resources */,
+				A3073EB61AE8F87E00E1CD70 /* LaunchScreen.xib in Resources */,
+				A3073EB71AE8F87E00E1CD70 /* Main.storyboard in Resources */,
+				A376DD581AEB7225002BE561 /* primary in Resources */,
+				A376DD5C1AEB7272002BE561 /* warframe in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37D557B1AE4062600E38E44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A37D55641AE4062600E38E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37D55DE1AE410D000E38E44 /* MyWFSupplementaryView.swift in Sources */,
+				A3073EC11AE92F0D00E1CD70 /* PrimaryCollectionViewController.swift in Sources */,
+				A352E4581AEC92A5002DEE5A /* MyPRSupplementaryView.swift in Sources */,
+				A352E4621AECA0A6002DEE5A /* MainPrimaryCell.swift in Sources */,
+				A352E45E1AEC9F39002DEE5A /* MainCollectionViewController.swift in Sources */,
+				A3DDC73B1AEDF6EF00875253 /* SecondaryCollectionViewController.swift in Sources */,
+				A37D55941AE40A9000E38E44 /* WarframeCollectionViewCell.swift in Sources */,
+				A352E4601AECA097002DEE5A /* MainWarframeCell.swift in Sources */,
+				A3DDC73F1AEDFC3C00875253 /* MySESupplementaryView.swift in Sources */,
+				A37D556E1AE4062600E38E44 /* AppDelegate.swift in Sources */,
+				A3073EC31AE92F7800E1CD70 /* PrimaryCollectionViewCell.swift in Sources */,
+				A352E4661AECA0BC002DEE5A /* MainMeleeCell.swift in Sources */,
+				A3DDC73D1AEDF7C000875253 /* SecondaryCollectionViewCell.swift in Sources */,
+				A352E4641AECA0B2002DEE5A /* MainSecondaryCell.swift in Sources */,
+				A37D55921AE40A1700E38E44 /* MyFlowLayout.swift in Sources */,
+				A37D558E1AE407AC00E38E44 /* WarframeCollectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37D55791AE4062600E38E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37D55841AE4062600E38E44 /* WarCollectionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A37D557F1AE4062600E38E44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A37D55671AE4062600E38E44 /* WarCollection */;
+			targetProxy = A37D557E1AE4062600E38E44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3073EB21AE8F87D00E1CD70 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3073EB31AE8F87D00E1CD70 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		A3073EB41AE8F87E00E1CD70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3073EB51AE8F87E00E1CD70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A37D55851AE4062600E38E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A37D55861AE4062600E38E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A37D55881AE4062600E38E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WarCollection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A37D55891AE4062600E38E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WarCollection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A37D558B1AE4062600E38E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WarCollectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarCollection.app/WarCollection";
+			};
+			name = Debug;
+		};
+		A37D558C1AE4062600E38E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WarCollectionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarCollection.app/WarCollection";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A37D55631AE4062500E38E44 /* Build configuration list for PBXProject "WarCollection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37D55851AE4062600E38E44 /* Debug */,
+				A37D55861AE4062600E38E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A37D55871AE4062600E38E44 /* Build configuration list for PBXNativeTarget "WarCollection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37D55881AE4062600E38E44 /* Debug */,
+				A37D55891AE4062600E38E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A37D558A1AE4062600E38E44 /* Build configuration list for PBXNativeTarget "WarCollectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37D558B1AE4062600E38E44 /* Debug */,
+				A37D558C1AE4062600E38E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A37D55601AE4062500E38E44 /* Project object */;
+}
